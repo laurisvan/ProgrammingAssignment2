@@ -2,7 +2,12 @@
 ## used in place of orinary matrices in case where repetitive inverse matrix
 ## calculations are needed.
 ##
-## Adapted from Coursera R Programming exercise 2 sample.
+## Sample usage:
+## m1 = matrix(c(1,0,5,2,1,6,3,4,0), nrow=3, ncol=3)
+## m2 <- makeCacheMatrix(m1)
+## m3 <- cacheSolve(m2)
+##
+## Adapted from vector sample at https://github.com/rdpeng/ProgrammingAssignment2/blob/master/README.md
 
 ## This function creates a special "matrix" object that can cache its inverse.
 
